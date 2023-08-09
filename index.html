@@ -4,6 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header start -->
+    <header class="container mx-auto px-4 md:px-5">
+      <div class="md:flex justify-center items-center gap-5">
+        <div>
+          <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
+            It's good <br />
+            tea time at the <br />
+            Tea House
+          </h1>
+          <p class="text-sm my-5 text-[#777] font-semibold">
+            Tea and botanical Solutions Supplier Give Optimum <br />
+            Satisfaction to your taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-r from-red-400 to-[tomato] rounded-sm px-6 py-3 text-white"
+          >
+            Explore More
+          </button>
+        </div>
+
+        <div>
+          <img class="w-100" src="./images/banner.png" alt="banner-img" />
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+  </body>
 </html>
